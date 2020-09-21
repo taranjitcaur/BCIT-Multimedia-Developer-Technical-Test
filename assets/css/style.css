@@ -1,0 +1,61 @@
+.card-body {
+    background-color: #2952a3;
+    color: #fff;
+    text-align: center;
+    border-radius: 0 0 5px 5px;
+}
+.card {
+    border: 2px solid #2952a3 !important;
+ 	height: auto;
+}
+.card-title {
+    margin-bottom: 0px; 
+}
+.card-img-top{
+	height: 244px;
+}
+.modal-content{
+        background-color: #85a3e0 !important;
+}
+.card-popup{
+	border: 2px solid #2952a3 !important;
+	background: #c2d1f0;
+}
+.list-group-item {
+    display: list-item !important;
+    padding: 0px !important;
+     background-color: transparent !important;
+    border: none !important;
+}
+.v-divider{
+ padding-left:30px;
+ padding-right:0px;
+ width:3px;
+ height:100%;
+ border-left:2px solid #2952a3;
+}
+.modal-content{
+	border-radius: 12px !important;
+}
+.modal-content .card-popup {
+    border: 2px solid #2952a3 !important;
+    background: #c2d1f0;
+    border-radius: 12px;
+}
+.modal-content .card-body {
+    border-radius: 6px;
+}
+.modal-content .card{
+    border-radius: 12px;
+}
+.modal-content .card-popup {
+    min-height: 355px;
+}
+.close{
+   line-height: 0;
+}
+@media (min-width: 992px) {
+.modal-lg, .modal-xl {
+    max-width: 950px;
+}
+}
