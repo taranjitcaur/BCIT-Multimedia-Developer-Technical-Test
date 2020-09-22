@@ -57,6 +57,16 @@
 .list-group.concerns{
 	margin-left:35px;
 }
+.hover11 figure img {
+	opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover11 figure:hover img {
+	opacity: .5;
+	cursor: pointer;
+}
+
 /* Media Queries: Tablet Landscape */
 @media screen and (max-width: 1060px) {
     #primary { width:67%; }
@@ -86,7 +96,7 @@
     .col-padding {
         padding: 0 15px;
     }
-	.card-body {
+	.card-container .card-body {
 	height: 70px !important;
  }
 }
@@ -110,4 +120,7 @@
 .modal-lg, .modal-xl {
     max-width: 950px;
 }
+}
+@media ( min-width: 768px ) {
+
 }
