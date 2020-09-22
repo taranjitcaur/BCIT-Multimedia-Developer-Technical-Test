@@ -7,7 +7,7 @@
 		<!-- Bootstrap CSS -->
 		<link rel="stylesheet" href="assets/css/bootstrap.min.css">
 		<link rel="stylesheet" href="assets/css/style.css">
-		<title>Hello, world!</title>
+		<title></title>
 		<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<meta name="HandheldFriendly" content="true">
@@ -17,21 +17,27 @@
    </head>
    <body>
       <!-- Button trigger modal -->
-      <div class="container-fluid">
+      <div class="container-fluid mb-5">
          <div class="row mt-4">
-            <div class="col-md-1 col-xl-1 col-lg-1 "></div>
-            <div class="col-md-10 col-xl-10 col-lg-10 col-sm-12">
+            <!--<div class="col-md-1 col-xl-1 col-lg-1 "></div>-->
+            <div class="col-md-12 col-xl-12 col-lg-12 col-sm-12 col-xs-12">
   
                <div class="row">
-                  <div class="col-md-4 col-xl-3 col-lg-3 col-sm-4 col-sm-3 mt-4" data-toggle="modal" data-target="#direct-supervisor">
+                  <div class="col-md-3 col-xl-3 col-lg-3 col-sm-4 col-sm-3 mt-4" data-toggle="modal" data-target="#direct-supervisor">
                      <div class="card card-container">
                         <div class="card-body">
                            <h6 class="card-title">Direct Supervisor</h6>
                         </div>
-						<div class="hover11 column">
-							<figure>
-								<img class="img-fluid card-img-top" src="assets/images/Direct Supervisor.png" alt="Card image cap">
-							</figure>
+						<div class="hvrbox column">
+							<img class="img-fluid card-img-top" src="assets/images/Direct Supervisor.png" alt="Card image cap">
+							<div class="hvrbox-layer_top">
+								<div class="hvrbox-text">
+								<svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-hand-index-thumb" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+  <path fill-rule="evenodd" d="M6.75 1a.75.75 0 0 0-.75.75V9.5a.5.5 0 0 1-.854.354l-2.41-2.411a.517.517 0 0 0-.809.631l2.512 4.185 1.232 2.465a.5.5 0 0 0 .447.276h6.302a.5.5 0 0 0 .434-.252l1.395-2.442a2.5 2.5 0 0 0 .317-.991l.272-2.715a1 1 0 0 0-.995-1.1H13.5v1a.5.5 0 1 1-1 0V7.154a4.208 4.208 0 0 0-.2-.26c-.187-.222-.368-.383-.486-.43-.124-.05-.392-.063-.708-.039a4.844 4.844 0 0 0-.106.01V8a.5.5 0 1 1-1 0V5.986c0-.167-.073-.272-.15-.314a1.657 1.657 0 0 0-.448-.182c-.179-.035-.5-.04-.816-.027l-.086.004V8a.5.5 0 1 1-1 0V1.75A.75.75 0 0 0 6.75 1zM8.5 4.466V1.75a1.75 1.75 0 1 0-3.5 0v6.543L3.443 6.736A1.517 1.517 0 0 0 1.07 8.588l2.491 4.153 1.215 2.43A1.5 1.5 0 0 0 6.118 16h6.302a1.5 1.5 0 0 0 1.302-.756l1.395-2.441a3.5 3.5 0 0 0 .444-1.389l.272-2.715a2 2 0 0 0-1.99-2.199h-.582a5.114 5.114 0 0 0-.195-.248c-.191-.229-.51-.568-.88-.716-.364-.146-.846-.132-1.158-.108l-.132.012a1.26 1.26 0 0 0-.56-.642 2.634 2.634 0 0 0-.738-.288c-.31-.062-.739-.058-1.05-.046l-.048.002zm2.094 2.025z"/>
+</svg>
+								</div>
+								
+							</div>
 						</div>
                         <ul class="d-none" id="priorities">
                            <li class="list-group-item">Productivity</li>
@@ -49,15 +55,19 @@
                         </ul>
                      </div>
                   </div>
-                  <div class="col-md-4 col-xl-3 col-lg-3 col-sm-4 col-sm-3 mt-4" data-toggle="modal" data-target="#co-worker">
+                  <div class="col-md-3 col-xl-3 col-lg-3 col-sm-4 col-sm-3 mt-4" data-toggle="modal" data-target="#co-worker">
                      <div class="card card-container">
                         <div class="card-body">
                            <h6 class="card-title">Co-Worker</h6>
                         </div>
-						<div class="hover11 column">
-							<figure>
+						<div class="hvrbox column">
+							
                         <img class="img-fluid card-img-top" src="assets/images/co-worker.png" alt="Card image cap">
-						</figure>
+						<div class="hvrbox-layer_top">
+								<div class="hvrbox-text"><svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-hand-index-thumb" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+  <path fill-rule="evenodd" d="M6.75 1a.75.75 0 0 0-.75.75V9.5a.5.5 0 0 1-.854.354l-2.41-2.411a.517.517 0 0 0-.809.631l2.512 4.185 1.232 2.465a.5.5 0 0 0 .447.276h6.302a.5.5 0 0 0 .434-.252l1.395-2.442a2.5 2.5 0 0 0 .317-.991l.272-2.715a1 1 0 0 0-.995-1.1H13.5v1a.5.5 0 1 1-1 0V7.154a4.208 4.208 0 0 0-.2-.26c-.187-.222-.368-.383-.486-.43-.124-.05-.392-.063-.708-.039a4.844 4.844 0 0 0-.106.01V8a.5.5 0 1 1-1 0V5.986c0-.167-.073-.272-.15-.314a1.657 1.657 0 0 0-.448-.182c-.179-.035-.5-.04-.816-.027l-.086.004V8a.5.5 0 1 1-1 0V1.75A.75.75 0 0 0 6.75 1zM8.5 4.466V1.75a1.75 1.75 0 1 0-3.5 0v6.543L3.443 6.736A1.517 1.517 0 0 0 1.07 8.588l2.491 4.153 1.215 2.43A1.5 1.5 0 0 0 6.118 16h6.302a1.5 1.5 0 0 0 1.302-.756l1.395-2.441a3.5 3.5 0 0 0 .444-1.389l.272-2.715a2 2 0 0 0-1.99-2.199h-.582a5.114 5.114 0 0 0-.195-.248c-.191-.229-.51-.568-.88-.716-.364-.146-.846-.132-1.158-.108l-.132.012a1.26 1.26 0 0 0-.56-.642 2.634 2.634 0 0 0-.738-.288c-.31-.062-.739-.058-1.05-.046l-.048.002zm2.094 2.025z"/>
+</svg></div>
+							</div>
 						</div>
                         <ul class="d-none" id="priorities">
                            <li class="list-group-item">Doing their own job well.</li>
@@ -75,15 +85,19 @@
                         </ul>
                      </div>
                   </div>
-                  <div class="col-md-4 col-xl-3 col-lg-3 col-sm-4 col-sm-3 mt-4" data-toggle="modal" data-target="#injured-worker">
+                  <div class="col-md-3 col-xl-3 col-lg-3 col-sm-4 col-sm-3 mt-4" data-toggle="modal" data-target="#injured-worker">
                      <div class="card card-container">
                         <div class="card-body">
                            <h6 class="card-title">Injured/Ill-Worker</h6>
                         </div>
-						<div class="hover11 column">
-							<figure>
+						<div class="hvrbox column">
+							
                         <img class="img-fluid card-img-top" src="assets/images/injured.png" alt="Card image cap">
-						</figure>
+						<div class="hvrbox-layer_top">
+								<div class="hvrbox-text"><svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-hand-index-thumb" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+  <path fill-rule="evenodd" d="M6.75 1a.75.75 0 0 0-.75.75V9.5a.5.5 0 0 1-.854.354l-2.41-2.411a.517.517 0 0 0-.809.631l2.512 4.185 1.232 2.465a.5.5 0 0 0 .447.276h6.302a.5.5 0 0 0 .434-.252l1.395-2.442a2.5 2.5 0 0 0 .317-.991l.272-2.715a1 1 0 0 0-.995-1.1H13.5v1a.5.5 0 1 1-1 0V7.154a4.208 4.208 0 0 0-.2-.26c-.187-.222-.368-.383-.486-.43-.124-.05-.392-.063-.708-.039a4.844 4.844 0 0 0-.106.01V8a.5.5 0 1 1-1 0V5.986c0-.167-.073-.272-.15-.314a1.657 1.657 0 0 0-.448-.182c-.179-.035-.5-.04-.816-.027l-.086.004V8a.5.5 0 1 1-1 0V1.75A.75.75 0 0 0 6.75 1zM8.5 4.466V1.75a1.75 1.75 0 1 0-3.5 0v6.543L3.443 6.736A1.517 1.517 0 0 0 1.07 8.588l2.491 4.153 1.215 2.43A1.5 1.5 0 0 0 6.118 16h6.302a1.5 1.5 0 0 0 1.302-.756l1.395-2.441a3.5 3.5 0 0 0 .444-1.389l.272-2.715a2 2 0 0 0-1.99-2.199h-.582a5.114 5.114 0 0 0-.195-.248c-.191-.229-.51-.568-.88-.716-.364-.146-.846-.132-1.158-.108l-.132.012a1.26 1.26 0 0 0-.56-.642 2.634 2.634 0 0 0-.738-.288c-.31-.062-.739-.058-1.05-.046l-.048.002zm2.094 2.025z"/>
+</svg></div>
+							</div>
 						</div>
                         <ul class="d-none" id="priorities">
                            <li class="list-group-item">Recovery</li>
@@ -101,15 +115,19 @@
                         </ul>
                      </div>
                   </div>
-                  <div class="col-md-4 col-xl-3 col-lg-3 col-sm-4 col-sm-3 mt-4" data-toggle="modal" data-target="#physician">
+                  <div class="col-md-3 col-xl-3 col-lg-3 col-sm-4 col-sm-3 mt-4" data-toggle="modal" data-target="#physician">
                      <div class="card card-container">
                         <div class="card-body">
                            <h6 class="card-title">Physician</h6>
                         </div>
-						<div class="hover11 column">
-							<figure>
+						<div class="hvrbox column">
+							
                         <img class="img-fluid card-img-top" src="assets/images/physician.png" alt="Card image cap">
-						</figure>
+						<div class="hvrbox-layer_top">
+								<div class="hvrbox-text"><svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-hand-index-thumb" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+  <path fill-rule="evenodd" d="M6.75 1a.75.75 0 0 0-.75.75V9.5a.5.5 0 0 1-.854.354l-2.41-2.411a.517.517 0 0 0-.809.631l2.512 4.185 1.232 2.465a.5.5 0 0 0 .447.276h6.302a.5.5 0 0 0 .434-.252l1.395-2.442a2.5 2.5 0 0 0 .317-.991l.272-2.715a1 1 0 0 0-.995-1.1H13.5v1a.5.5 0 1 1-1 0V7.154a4.208 4.208 0 0 0-.2-.26c-.187-.222-.368-.383-.486-.43-.124-.05-.392-.063-.708-.039a4.844 4.844 0 0 0-.106.01V8a.5.5 0 1 1-1 0V5.986c0-.167-.073-.272-.15-.314a1.657 1.657 0 0 0-.448-.182c-.179-.035-.5-.04-.816-.027l-.086.004V8a.5.5 0 1 1-1 0V1.75A.75.75 0 0 0 6.75 1zM8.5 4.466V1.75a1.75 1.75 0 1 0-3.5 0v6.543L3.443 6.736A1.517 1.517 0 0 0 1.07 8.588l2.491 4.153 1.215 2.43A1.5 1.5 0 0 0 6.118 16h6.302a1.5 1.5 0 0 0 1.302-.756l1.395-2.441a3.5 3.5 0 0 0 .444-1.389l.272-2.715a2 2 0 0 0-1.99-2.199h-.582a5.114 5.114 0 0 0-.195-.248c-.191-.229-.51-.568-.88-.716-.364-.146-.846-.132-1.158-.108l-.132.012a1.26 1.26 0 0 0-.56-.642 2.634 2.634 0 0 0-.738-.288c-.31-.062-.739-.058-1.05-.046l-.048.002zm2.094 2.025z"/>
+</svg></div>
+							</div>
 						</div>
                         <ul class="d-none" id="priorities">
                            <li class="list-group-item">Recovery</li>
@@ -127,13 +145,17 @@
                         </ul>
                      </div>
                   </div>
-                  <div class="col-md-4 col-xl-3 col-lg-3 col-sm-4 col-sm-3 mt-4" data-toggle="modal" data-target="#union-representative">
+                  <div class="col-md-3 col-xl-3 col-lg-3 col-sm-4 col-sm-3 mt-4" data-toggle="modal" data-target="#union-representative">
                      <div class="card card-container">
                         <div class="card-body"><h6 class="card-title">Union Representative</h6></div>
-						<div class="hover11 column">
-							<figure>
+						<div class="hvrbox column">
+							
                         <img class="img-fluid card-img-top" src="assets/images/Union representative.png" alt="Card image cap">
-						</figure>
+						<div class="hvrbox-layer_top">
+								<div class="hvrbox-text"><svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-hand-index-thumb" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+  <path fill-rule="evenodd" d="M6.75 1a.75.75 0 0 0-.75.75V9.5a.5.5 0 0 1-.854.354l-2.41-2.411a.517.517 0 0 0-.809.631l2.512 4.185 1.232 2.465a.5.5 0 0 0 .447.276h6.302a.5.5 0 0 0 .434-.252l1.395-2.442a2.5 2.5 0 0 0 .317-.991l.272-2.715a1 1 0 0 0-.995-1.1H13.5v1a.5.5 0 1 1-1 0V7.154a4.208 4.208 0 0 0-.2-.26c-.187-.222-.368-.383-.486-.43-.124-.05-.392-.063-.708-.039a4.844 4.844 0 0 0-.106.01V8a.5.5 0 1 1-1 0V5.986c0-.167-.073-.272-.15-.314a1.657 1.657 0 0 0-.448-.182c-.179-.035-.5-.04-.816-.027l-.086.004V8a.5.5 0 1 1-1 0V1.75A.75.75 0 0 0 6.75 1zM8.5 4.466V1.75a1.75 1.75 0 1 0-3.5 0v6.543L3.443 6.736A1.517 1.517 0 0 0 1.07 8.588l2.491 4.153 1.215 2.43A1.5 1.5 0 0 0 6.118 16h6.302a1.5 1.5 0 0 0 1.302-.756l1.395-2.441a3.5 3.5 0 0 0 .444-1.389l.272-2.715a2 2 0 0 0-1.99-2.199h-.582a5.114 5.114 0 0 0-.195-.248c-.191-.229-.51-.568-.88-.716-.364-.146-.846-.132-1.158-.108l-.132.012a1.26 1.26 0 0 0-.56-.642 2.634 2.634 0 0 0-.738-.288c-.31-.062-.739-.058-1.05-.046l-.048.002zm2.094 2.025z"/>
+</svg></div>
+							</div>
 						</div>
                         <ul class="d-none" id="priorities">
                            <li class="list-group-item">Worker receiving benefits to which they are entitled.</li>
@@ -150,15 +172,19 @@
                         </ul>
                      </div>
                   </div>
-                  <div class="col-md-4 col-xl-3 col-lg-3 col-sm-4 col-sm-3 mt-4" data-toggle="modal" data-target="#insurance-provider">
+                  <div class="col-md-3 col-xl-3 col-lg-3 col-sm-4 col-sm-3 mt-4" data-toggle="modal" data-target="#insurance-provider">
                      <div class="card card-container">
                         <div class="card-body">
                            <h6 class="card-title">Insurance Provider</h6>
                         </div>
-						<div class="hover11 column">
-							<figure>
+						<div class="hvrbox column">
+							
                         <img class="img-fluid card-img-top" src="assets/images/Insurance provider.png" alt="Card image cap">
-						</figure>
+						<div class="hvrbox-layer_top">
+								<div class="hvrbox-text"><svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-hand-index-thumb" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+  <path fill-rule="evenodd" d="M6.75 1a.75.75 0 0 0-.75.75V9.5a.5.5 0 0 1-.854.354l-2.41-2.411a.517.517 0 0 0-.809.631l2.512 4.185 1.232 2.465a.5.5 0 0 0 .447.276h6.302a.5.5 0 0 0 .434-.252l1.395-2.442a2.5 2.5 0 0 0 .317-.991l.272-2.715a1 1 0 0 0-.995-1.1H13.5v1a.5.5 0 1 1-1 0V7.154a4.208 4.208 0 0 0-.2-.26c-.187-.222-.368-.383-.486-.43-.124-.05-.392-.063-.708-.039a4.844 4.844 0 0 0-.106.01V8a.5.5 0 1 1-1 0V5.986c0-.167-.073-.272-.15-.314a1.657 1.657 0 0 0-.448-.182c-.179-.035-.5-.04-.816-.027l-.086.004V8a.5.5 0 1 1-1 0V1.75A.75.75 0 0 0 6.75 1zM8.5 4.466V1.75a1.75 1.75 0 1 0-3.5 0v6.543L3.443 6.736A1.517 1.517 0 0 0 1.07 8.588l2.491 4.153 1.215 2.43A1.5 1.5 0 0 0 6.118 16h6.302a1.5 1.5 0 0 0 1.302-.756l1.395-2.441a3.5 3.5 0 0 0 .444-1.389l.272-2.715a2 2 0 0 0-1.99-2.199h-.582a5.114 5.114 0 0 0-.195-.248c-.191-.229-.51-.568-.88-.716-.364-.146-.846-.132-1.158-.108l-.132.012a1.26 1.26 0 0 0-.56-.642 2.634 2.634 0 0 0-.738-.288c-.31-.062-.739-.058-1.05-.046l-.048.002zm2.094 2.025z"/>
+</svg></div>
+							</div>
 						</div>
                         <ul class="d-none" id="priorities">
                            <li class="list-group-item">Contain costs of claim.</li>
@@ -179,15 +205,19 @@
                         </ul>
                      </div>
                   </div>
-                  <div class="col-md-4 col-xl-3 col-lg-3 col-sm-4 col-sm-3 mt-4" data-toggle="modal" data-target="#disability-case-management-professional">
+                  <div class="col-md-3 col-xl-3 col-lg-3 col-sm-4 col-sm-3 mt-4" data-toggle="modal" data-target="#disability-case-management-professional">
                      <div class="card card-container">
                         <div class="card-body">
                            <h6 class="card-title">Disability Case Management Professional</h6>
                         </div>
-						<div class="hover11 column">
-							<figure>
+						<div class="hvrbox column">
+							
                         <img class="img-fluid card-img-top" src="assets/images/Disability Management professional.png" alt="Card image cap">
-						</figure>
+						<div class="hvrbox-layer_top">
+								<div class="hvrbox-text"><svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-hand-index-thumb" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+  <path fill-rule="evenodd" d="M6.75 1a.75.75 0 0 0-.75.75V9.5a.5.5 0 0 1-.854.354l-2.41-2.411a.517.517 0 0 0-.809.631l2.512 4.185 1.232 2.465a.5.5 0 0 0 .447.276h6.302a.5.5 0 0 0 .434-.252l1.395-2.442a2.5 2.5 0 0 0 .317-.991l.272-2.715a1 1 0 0 0-.995-1.1H13.5v1a.5.5 0 1 1-1 0V7.154a4.208 4.208 0 0 0-.2-.26c-.187-.222-.368-.383-.486-.43-.124-.05-.392-.063-.708-.039a4.844 4.844 0 0 0-.106.01V8a.5.5 0 1 1-1 0V5.986c0-.167-.073-.272-.15-.314a1.657 1.657 0 0 0-.448-.182c-.179-.035-.5-.04-.816-.027l-.086.004V8a.5.5 0 1 1-1 0V1.75A.75.75 0 0 0 6.75 1zM8.5 4.466V1.75a1.75 1.75 0 1 0-3.5 0v6.543L3.443 6.736A1.517 1.517 0 0 0 1.07 8.588l2.491 4.153 1.215 2.43A1.5 1.5 0 0 0 6.118 16h6.302a1.5 1.5 0 0 0 1.302-.756l1.395-2.441a3.5 3.5 0 0 0 .444-1.389l.272-2.715a2 2 0 0 0-1.99-2.199h-.582a5.114 5.114 0 0 0-.195-.248c-.191-.229-.51-.568-.88-.716-.364-.146-.846-.132-1.158-.108l-.132.012a1.26 1.26 0 0 0-.56-.642 2.634 2.634 0 0 0-.738-.288c-.31-.062-.739-.058-1.05-.046l-.048.002zm2.094 2.025z"/>
+</svg></div>
+							</div>
 						</div>
                         <ul class="d-none" id="priorities">
                            <li class="list-group-item">Communicating with all stakeholders on absence duration.</li>
@@ -211,7 +241,7 @@
                   </div>
                </div>
             </div>
-            <div class="col-md-1 col-xl-1 col-lg-1"></div>
+            <!--<div class="col-md-1 col-xl-1 col-lg-1"></div>-->
          </div>
       </div>
       <!-- Modal -->
@@ -226,22 +256,22 @@
                      <div class="row">
                         <div class="col-xl-12 col-lg-12 col-sm-12 col-md-12 col-xs-12">
                            <div class="row">
-                              <div class="col-xl-4 col-lg-4 col-md-4 pl-0 pr-0 col-xs-6 col-sm-6 col-xs-6">
+                              <div class="col-xl-4 col-lg-4 col-md-4 pl-0 pr-0 col-xs-12 col-sm-12">
                                  <div class="card">
                                     <div class="card-body">
-                                       <h5 class="modal-title card-title"><b>	</b></h5>
+                                       <h6 class="modal-title card-title"><b>	</b></h6>
                                     </div>
                                     <img class="img-fluid card-img" src="" alt="Card image cap">
                                  </div>
                               </div>
-                              <div class="col-xl-8 col-lg-8 col-md-8 col-sm-6 col-xs-6">
+                              <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12 col-xs-12">
                                  <div class="row card-popup ml-1 grid-divider">
-                                    <div class="col-xl-6 col-lg-6 col-md-6 pl-3 col-sm-12 col-xs-12">
+                                    <div class="col-xl-6 col-lg-6 col-md-12 pl-3 col-sm-12 col-xs-12">
                                        <h5 class="card-title mb-2 mt-2"><b>Priorities</b></h5>
                                        <ul class="list-group priorities pl-3 pb-3">	
                                        </ul>
                                     </div>									
-	                                 <div class="col-xl-6 col-lg-6 col-md-6 pl-0 col-sm-12 col-xs-12">
+	                                 <div class="col-xl-6 col-lg-6 col-md-12 pl-0 col-sm-12 col-xs-12">
                                        <h5 class="card-title mb-2 mt-2 ml-3"><b>Concerns and Challenges</b></h5>
                                        <ul class="list-group concerns pb-3">										  
                                        </ul>
