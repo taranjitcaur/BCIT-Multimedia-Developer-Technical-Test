@@ -27,6 +27,7 @@
                      <div class="card card-container">
                         <div class="card-body">
                            <h6 class="card-title">Direct Supervisor</h6>
+						   
                         </div>
 						<div class="hvrbox column">
 							<img class="img-fluid card-img-top" src="assets/images/Direct Supervisor.png" alt="Card image cap">
@@ -88,7 +89,7 @@
                   <div class="col-md-3 col-xl-3 col-lg-3 col-sm-4 col-sm-3 mt-4" data-toggle="modal" data-target="#injured-worker">
                      <div class="card card-container">
                         <div class="card-body">
-                           <h6 class="card-title">Injured/Ill-Worker</h6>
+                           <h6 class="card-title">Injured/ill-Worker</h6>
                         </div>
 						<div class="hvrbox column">
 							
@@ -130,7 +131,9 @@
 							</div>
 						</div>
                         <ul class="d-none" id="priorities">
-                           <li class="list-group-item">Recovery</li>
+                           <li class="list-group-item">Recovery
+						   
+						   </li>
                            <li class="list-group-item">Symptom management.</li>
                            <li class="list-group-item">Referrals for diagnostic tests or specialists are done in a timely manner.</li>
                            <li class="list-group-item">Confidentiality of patient’s information.</li>
@@ -259,12 +262,12 @@
                               <div class="col-xl-4 col-lg-4 col-md-4 pl-0 pr-0 col-xs-12 col-sm-12">
                                  <div class="card">
                                     <div class="card-body">
-                                       <h6 class="modal-title card-title"><b>	</b></h6>
+                                       <h5 class="modal-title card-title"><b>	</b></h5>
                                     </div>
                                     <img class="img-fluid card-img" src="" alt="Card image cap">
                                  </div>
                               </div>
-                              <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                              <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12 col-xs-12 priorities-concerns-cnt">
                                  <div class="row card-popup ml-1 grid-divider">
                                     <div class="col-xl-6 col-lg-6 col-md-12 pl-3 col-sm-12 col-xs-12">
                                        <h5 class="card-title mb-2 mt-2"><b>Priorities</b></h5>
@@ -291,33 +294,6 @@
       <script type="text/javascript" src="assets/js/jquery-3.3.1.slim.min.js"></script>
       <script type="text/javascript"  src="assets/js/popper.min.js"></script>
       <script type="text/javascript"  src="assets/js/bootstrap.min.js"></script>
+      <script type="text/javascript"  src="assets/js/script.js"></script>
    </body>
 </html>
-<script type="text/javascript">
-   $(document).ready(function(){
-   	$('.card-container').on('click', function(){
-   		var prioritiesHTML = $(this).children();
-   		var concernsHTML = $(this).children();
-   		if(typeof(prioritiesHTML[2]) !== 'undefined') {
-   			var pHtml = prioritiesHTML[2].innerHTML;
-   			$('.modal .list-group.priorities').html(pHtml);
-   		} else {
-   			$('.modal .list-group.priorities').html('');
-   		}
-   		if(typeof(concernsHTML[3]) !== 'undefined') {	
-   			var cHtml = concernsHTML[3].innerHTML;
-   			$('.modal .list-group.concerns').html(cHtml);
-   		} else {
-   			$('.modal .list-group.concerns').html('');
-   		}		
-   		var title = $(this).find('.card-title').text();
-   		var image = $(this).find('img').attr('src');		
-   		var attr = $(this).parent().attr('data-target');	
-   		var res = attr.slice(1);		
-   		$('.modal').attr('id', res);
-   		$('.modal .modal-title.card-title').html(title);
-   		$('.modal .img-fluid.card-img').attr("src", image);
-   		$(attr).modal('show');
-   	});	
-   }); 
-</script>
